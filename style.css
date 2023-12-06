@@ -43,8 +43,6 @@ h1,h2{
 }
 p{
     color: hsl(217, 12%, 63%);
-}.rating-link{
-    text-decoration: none;
 }
 #rating-buttons {
     display: flex;
@@ -72,7 +70,7 @@ p{
 }
 .rating-link{
     text-transform: uppercase;
-    align-self: center;
+    text-decoration: none;
     font-size: 0.9em;
     letter-spacing: 3px;
     padding: 10px 85px;
